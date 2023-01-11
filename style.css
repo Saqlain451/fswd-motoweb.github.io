@@ -93,11 +93,9 @@ header {
 @media (width<=1024px) {
   header {
     padding: 0rem 1rem 0rem 0rem;
-    overflow-x: hidden;
+    
   }
-  body{
-    overflow-x: hidden;
-  }
+ 
   .navbar-logo {
     font-size: 1.6rem;
     z-index: 999;
@@ -113,7 +111,7 @@ header {
   }
 
   .navbar {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100%;
     top: 0;

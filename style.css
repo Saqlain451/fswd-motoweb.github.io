@@ -95,6 +95,9 @@ header {
     padding: 0rem 1rem 0rem 0rem;
     overflow-x: hidden;
   }
+  body{
+    overflow-x: hidden;
+  }
   .navbar-logo {
     font-size: 1.6rem;
     z-index: 999;
